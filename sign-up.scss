@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: rgb(231, 232, 235);
+}
+main {
+  background: aqua;
+  margin: 35px auto;
+  width: 700px;
+  height: 550px;
+  //   height: fit-content;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.658);
+  #sign-up {
+    height: 100%;
+    width: 100%;
+    .sign-up_bg-img {
+      text-align: center;
+      background: url("images/bg-img.png");
+      height: 550px;
+      width: 260px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      i {
+        width: 100px;
+        height: 100px;
+        color: white;
+      }
+      h1 {
+        color: white;
+        margin-top: 50px;
+        font-weight: 600;
+        letter-spacing: 2px;
+      }
+    }
+    #sign-up-form {
+      height: 550px;
+      width: 450px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 20px 30px;
+      background-color: white;
+      .input-wrapper {
+        margin-top: 20px;
+        padding: 7px 10px;
+        border-radius: 10px 0 10px 10px;
+        border: 1px solid transparent;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.226);
+        input {
+          border-color: transparent;
+          color: rgb(105, 105, 105);
+          font-size: 15px;
+          &:focus {
+            outline: none;
+          }
+        }
+        label {
+          font-weight: 600;
+          font-size: 12px;
+          letter-spacing: 1px;
+        }
+        &.success {
+          border-color: green;
+        }
+        &.error {
+          border-color: red;
+        }
+      }
+      .submit-sign-up {
+        margin: 15px 0;
+        text-align: center;
+        input {
+          width: 100%;
+          padding: 20px 0;
+          border-radius: 10px 0 10px 10px;
+          background-color: black;
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.226);
+          color: white;
+          border-color: transparent;
+          cursor: pointer;
+          letter-spacing: 2px;
+          &:hover {
+            background-color: rgb(27, 27, 27);
+          }
+        }
+      }
+      small {
+        color: red;
+      }
+    }
+  }
+}

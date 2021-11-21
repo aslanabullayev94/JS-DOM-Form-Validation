@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #e7e8eb;
+}
+
+main {
+  background: aqua;
+  margin: 35px auto;
+  width: 700px;
+  height: 550px;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.658);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.658);
+}
+
+main #sign-up {
+  height: 100%;
+  width: 100%;
+}
+
+main #sign-up .sign-up_bg-img {
+  text-align: center;
+  background: url("images/bg-img.png");
+  height: 550px;
+  width: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #sign-up .sign-up_bg-img i {
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+main #sign-up .sign-up_bg-img h1 {
+  color: white;
+  margin-top: 50px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+main #sign-up #sign-up-form {
+  height: 550px;
+  width: 450px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px 30px;
+  background-color: white;
+}
+
+main #sign-up #sign-up-form .input-wrapper {
+  margin-top: 20px;
+  padding: 7px 10px;
+  border-radius: 10px 0 10px 10px;
+  border: 1px solid transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.226);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.226);
+}
+
+main #sign-up #sign-up-form .input-wrapper input {
+  border-color: transparent;
+  color: dimgray;
+  font-size: 15px;
+}
+
+main #sign-up #sign-up-form .input-wrapper input:focus {
+  outline: none;
+}
+
+main #sign-up #sign-up-form .input-wrapper label {
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+main #sign-up #sign-up-form .input-wrapper.success {
+  border-color: green;
+}
+
+main #sign-up #sign-up-form .input-wrapper.error {
+  border-color: red;
+}
+
+main #sign-up #sign-up-form .submit-sign-up {
+  margin: 15px 0;
+  text-align: center;
+}
+
+main #sign-up #sign-up-form .submit-sign-up input {
+  width: 100%;
+  padding: 20px 0;
+  border-radius: 10px 0 10px 10px;
+  background-color: black;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.226);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.226);
+  color: white;
+  border-color: transparent;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+main #sign-up #sign-up-form .submit-sign-up input:hover {
+  background-color: #1b1b1b;
+}
+
+main #sign-up #sign-up-form small {
+  color: red;
+}
+/*# sourceMappingURL=sign-up.css.map */
